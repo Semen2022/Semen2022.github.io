@@ -1,1 +1,1 @@
-# semen2022-github.io
+# semen2022.github.io
