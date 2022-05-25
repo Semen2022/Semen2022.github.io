@@ -13,13 +13,13 @@ html, body{
 } 
 
 body{
-	font-family: 'Titillium Web', sans-serif; /*семейство подгружаемых шрифтов для сайта*/
+	font-family: 'Montserrat', sans-serif; /*семейство подгружаемых шрифтов для сайта*/
      font-style: normal; /* стиль шрифта для тела страницы*/
      font-size: 16px; /* размер шрифта для страницы по-умолчанию 16 пикселей (обычный стандарт)*/
      line-height: 1.2; /* задается высота строк*/
      font-weight: normal; /* вес (жирность шрифта - устанавливаем обычную 300)*/
-     color: #fff;
-	background-color: #fff;
+     color: #000;
+	background-color: rgb(199, 130, 130);
 }
 
 /* END Common style for HTML, body*/           
@@ -153,13 +153,23 @@ body{
 
 .wrapper{
 	max-width: 2480px;
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-left: 37px;
+	padding-right: 37px;
 	margin: 0 auto;
+     background-color: aquamarine;
 }
+
+.bgyellow {
+     background-color: #f1cb59;
+     width: 115px;
+     height: 96px;
+     margin-left: 182px;
+}
+
 
 .header {
      font-family: 'Montserrat', sans-serif;
+     color: #363636;
 }
 
 .name {
@@ -169,4 +179,9 @@ body{
 
 .surname {
      font-weight: 600;
+}
+
+.specialization {
+     font-size: 17px;
+     font-weight: 400;
 }
