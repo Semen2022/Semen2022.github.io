@@ -6,7 +6,6 @@ html, body{
 	margin: 0;
 	padding: 0;
      min-width: 320px;
-     background-color: rgb(199, 130, 130);
 }
 
 *, *::after, *::before{
@@ -157,7 +156,6 @@ body{
 	padding-left: 37px;
 	padding-right: 37px;
 	margin: 0 auto;
-     background-color: aquamarine;
 }
 
 .bgyellow {
@@ -178,16 +176,20 @@ body{
 
 .column_left {
      flex-basis: 665px;
-         
 }
 
 .column_right {
      flex-basis: 318px;
-     
+}
+
+.block_foto {
+     width: 100%;
+     background-color: #f1cb59;
+     margin: 15px 0 0 72px;
 }
 
 .name {
-   font-size: 82px;
+   font-size: 72px;
    font-weight: 500;
    margin-top: 52px;
    text-transform: uppercase;
@@ -204,14 +206,29 @@ body{
      vertical-align: top;
 }
 
-.column_right .bgyellow {
-     max-width: 320px;
-     max-height: 439px;
-     margin: 15px 0 0 72px;
+.contacts {
+     font-size: 24px;
+     font-weight: 500;
+     line-height: 45px;
+     text-align: left;
+     display: flex;
+     flex-wrap: nowrap;
+}
+
+.contacts_icons {
+     list-style: none;
+     background-color: #f1cb59;
+     padding: 41px 26px;
+     margin-top: -58px;
+} 
+
+.contacts_items {
+     list-style: none;   
+     margin: -21px 0 0 21px;
 }
 
 .foto {
-     /*max-width: ; */
+     max-width: 245px;
      width: 100%;
-     padding: 15% 0 0 15%;
-}
+     margin: 65px 0 0 30px;
+ }
