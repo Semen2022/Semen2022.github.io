@@ -19,7 +19,7 @@ body{
      line-height: 1.2; /* задается высота строк*/
      font-weight: normal; /* вес (жирность шрифта - устанавливаем обычную 300)*/
      color: #000;
-	
+     background-color: rgba(157 216 251 / 55%);
 }
 
 /* END Common style for HTML, body*/           
@@ -156,22 +156,32 @@ body{
 	padding-left: 37px;
 	padding-right: 37px;
 	margin: 0 auto;
+     background-color: #fff;
+}
+
+.container {
+     max-width: 1050px;
+     margin-left: 92px;
 }
 
 .bgyellow {
      background-color: #f1cb59;
+}
+
+.mark{
      width: 81px;
      height: 88px;
-     margin-left: 91px;
 }
 
 .header {
      font-family: 'Montserrat', sans-serif;
      color: #363636;
      text-align: right;
-     margin: 0px 63px 0 86px;
+     width: 100%;
      display: flex;
-     flex-wrap: nowrap;    
+     justify-content: space-between;
+     flex-wrap: nowrap;
+     flex: 1 1 auto; 
 }
 
 .column_left {
@@ -179,13 +189,7 @@ body{
 }
 
 .column_right {
-     flex-basis: 318px;
-}
-
-.block_foto {
-     width: 100%;
-     background-color: #f1cb59;
-     margin: 15px 0 0 72px;
+     flex-basis: 318px;     
 }
 
 .name {
@@ -217,7 +221,6 @@ body{
 
 .contacts_icons {
      list-style: none;
-     background-color: #f1cb59;
      padding: 41px 26px;
      margin-top: -58px;
 } 
@@ -227,8 +230,17 @@ body{
      margin: -21px 0 0 21px;
 }
 
+.block_foto {
+     margin: 25% 0 0 12%;
+     min-width: 150px;
+     position: relative; 
+}
+
+
 .foto {
-     max-width: 245px;
+     object-fit: cover;
      width: 100%;
-     margin: 65px 0 0 30px;
- }
+     position: absolute;
+     top: 0;
+     left: 0;
+}
