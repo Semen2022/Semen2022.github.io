@@ -5,7 +5,6 @@ html, body{
      box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-     min-width: 320px;
 }
 
 *, *::after, *::before{
@@ -20,6 +19,7 @@ body{
      font-weight: normal; /* вес (жирность шрифта - устанавливаем обычную 300)*/
      color: #000;
      background-color: rgba(157 216 251 / 55%);
+     min-width: 320px;
 }
 
 /* END Common style for HTML, body*/           
@@ -164,6 +164,8 @@ body{
      margin-left: 92px;
 }
 
+/* Header START */
+
 .bgyellow {
      background-color: #f1cb59;
 }
@@ -244,3 +246,46 @@ body{
      top: 0;
      left: 0;
 }
+
+/* Header END */
+
+/* profile education START */
+
+.main {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 57px;
+}
+
+.main .column_right {
+     border-left: solid #f1cb59 3px;
+}
+
+.indent {
+    padding-left: 36px;
+}
+
+.education {
+     font-family: 'Poppins', sans-serif;
+}
+
+.education h2 {
+     font-size: 34px;
+     font-weight: 600;
+     text-transform: uppercase;
+}
+
+.period {
+     margin-top: 42px;
+     font-family: 'Roboto', sans-serif;
+     font-size: 26px;
+     font-weight: 300;
+     letter-spacing: 1px;
+}
+
+.edu_text {
+     margin-top: 4px;
+     font-size: 26px;
+     font-weight: 400;
+}
+/* profile education END */
