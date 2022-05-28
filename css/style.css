@@ -152,16 +152,16 @@ body{
 /* connecting fonts END */
 
 .wrapper{
-	max-width: 1277px;
+	max-width: 954px;
 	padding-left: 37px;
 	padding-right: 37px;
 	margin: 0 auto;
-     background-color: #fff;
+     background-color: rgb(255, 255, 255);
 }
 
 .container {
-     max-width: 1050px;
-     margin-left: 92px;
+     max-width: 784px;
+     margin-left: 59px;
 }
 
 /* Header START */
@@ -171,8 +171,8 @@ body{
 }
 
 .mark{
-     width: 81px;
-     height: 88px;
+     width: 60px;
+     height: 63px;
 }
 
 .header {
@@ -187,17 +187,17 @@ body{
 }
 
 .column_left {
-     flex-basis: 665px;
+     flex-basis: 500px;
 }
 
 .column_right {
-     flex-basis: 318px;     
+     flex-basis: 238px;     
 }
 
 .name {
-   font-size: 72px;
+   font-size: 62px;
    font-weight: 500;
-   margin-top: 52px;
+   margin-top: 40px;
    text-transform: uppercase;
 }
 
@@ -207,15 +207,15 @@ body{
 }
 
 .specialization {
-     font-size: 33px;
+     font-size: 22px;
      font-weight: 400;
      vertical-align: top;
 }
 
 .contacts {
-     font-size: 24px;
+     font-size: 20px;
      font-weight: 500;
-     line-height: 45px;
+     line-height: 42px;
      text-align: left;
      display: flex;
      flex-wrap: nowrap;
@@ -223,13 +223,13 @@ body{
 
 .contacts_icons {
      list-style: none;
-     padding: 41px 26px;
-     margin-top: -58px;
+     padding: 8px 16px;
+     margin-top: -73px;
 } 
 
 .contacts_items {
      list-style: none;   
-     margin: -21px 0 0 21px;
+     margin: -70px 0 0 21px;
 }
 
 .block_foto {
@@ -261,8 +261,10 @@ body{
      border-left: solid #f1cb59 3px;
 }
 
-.indent {
-    padding-left: 36px;
+.wrap_right {
+     margin-top: 7px;
+     padding-left: 25px;
+     max-width: 210px;
 }
 
 .education {
@@ -270,22 +272,21 @@ body{
 }
 
 .education h2 {
-     font-size: 34px;
+     font-size: 24px;
      font-weight: 600;
      text-transform: uppercase;
 }
 
 .period {
-     margin-top: 42px;
+     margin-top: 34px;
      font-family: 'Roboto', sans-serif;
-     font-size: 26px;
+     font-size: 20px;
      font-weight: 300;
      letter-spacing: 1px;
 }
 
 .edu_text {
-     margin-top: 4px;
-     font-size: 26px;
+     font-size: 22px;
      font-weight: 400;
 }
 /* profile education END */
