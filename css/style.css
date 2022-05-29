@@ -195,9 +195,9 @@ body{
 }
 
 .name {
-   font-size: 62px;
+   font-size: calc(22px + ((62 - 22) * ((100vw - 320px) / (958 - 320))));
    font-weight: 500;
-   margin-top: 40px;
+   margin-top: 37px;
    text-transform: uppercase;
 }
 
@@ -215,21 +215,49 @@ body{
 .contacts {
      font-size: 20px;
      font-weight: 500;
-     line-height: 42px;
+     line-height: 32px;
      text-align: left;
      display: flex;
      flex-wrap: nowrap;
+     list-style: none; 
+     margin: -15px 0 0 21px; 
 }
 
 .contacts_icons {
-     list-style: none;
-     padding: 8px 16px;
-     margin-top: -73px;
-} 
+     width: 60px;
+     height: 143px;
+     margin-left: -20px;
+     margin-top: -30px;
+     line-height: 15px;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     flex-wrap: nowrap;
+}
+ 
+.icon_phone,
+.icon_mail,
+.icon_home {
+     padding: 10px;
+}
+
+.icon_phone {
+     margin-top: 36px;
+     background: url('/img/phone-mini.png') no-repeat center;
+}
+
+.icon_mail {
+     margin-top: 10px;
+     background: url('/img/gmail-mini.png')  no-repeat center;
+}
+
+.icon_home {
+     margin-top: 14px;
+     background: url('/img/home-mini.png')  no-repeat center;
+}
 
 .contacts_items {
-     list-style: none;   
-     margin: -70px 0 0 21px;
+     padding-left: 17px;
 }
 
 .block_foto {
