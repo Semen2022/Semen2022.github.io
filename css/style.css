@@ -175,18 +175,31 @@ body{
      background-color: #f1cb59;
 }
 
+.wrap_header {
+     height: 332px;
+}
+
 .header {
      font-family: 'Montserrat', sans-serif;
      color: #363636;
      text-align: right;
      width: 100%;
+     height: 100%;
      display: flex;
      justify-content: space-between;
      flex-wrap: nowrap; 
 }
 
 .column_left {
-     flex-basis: 500px;
+     flex-basis: 522px;
+}
+
+
+.header .column_left{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: flex-start;
 }
 
 .column_right {
@@ -195,8 +208,8 @@ body{
 
 .name {
      /*font-size: calc(22px + ((62 - 22) * ((100vw - 320px) / (958 - 320))));*/
-     font-size: 42px;
-     font-weight: 515;
+     font-size: 45px;
+     font-weight: 500;
      margin-top: 37px;
      text-transform: uppercase;
      text-align: right;
@@ -304,10 +317,11 @@ body{
 
 .education {
      font-family: 'Poppins', sans-serif;
+     padding-bottom: 12px;
 }
 
 .education h2 {
-     font-size: 24px;
+     font-size: 27px;
      font-weight: 600;
      text-transform: uppercase;
 }
@@ -324,4 +338,26 @@ body{
      font-size: 22px;
      font-weight: 400;
 }
+
+.wrap_left {
+     margin-top: 7px;
+     padding-right: 15px;
+     max-width: 486px;
+}
+
+.wrap_left h2{
+     text-transform: uppercase;
+     font-family: 'Poppins', sans-serif;
+     font-size: 27px;
+     font-weight: 600;
+}
+
+.left_column_text {
+     margin-top: 34px;
+     font-family: 'Roboto', sans-serif;
+     font-size: 20px;
+     font-weight: 300;
+     letter-spacing: 1px;
+}
+
 /* profile education END */
