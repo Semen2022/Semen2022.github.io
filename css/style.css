@@ -459,25 +459,27 @@ footer .bgyellow {
 
 .contacts {
      font-size: 16px;
-     line-height: 28px;
+     line-height: 30px;
      margin: 0px 0 0 20px;
 }
 
 .contacts_icons {
      width: 45px;
-     height: 100%;
-     margin-top: 0px;
+     height: 110px; /* 100%; */
+     margin-top: -8px;
 }
 
 .icon_phone {
      margin-top: 6px;
 }
 
+/*
 .icon_phone,
 .icon_mail,
 .icon_home {
      padding: 8px;
 }
+*/
 
 .main {
      margin-top: 27px;
@@ -563,7 +565,6 @@ footer .bgyellow {
 
 
 
-
 @media screen and (max-width: 575px) {
 
 .container {
@@ -598,9 +599,18 @@ footer .bgyellow {
 }
 
 .main {
+     flex-direction: column-reverse;
+}
+
+.main .column_right {
+     border-left: none;
+}
+
+.temp_disp_none {
      display: none;
 }
-     
+
+
 }
 
 
