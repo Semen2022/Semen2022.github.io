@@ -362,4 +362,27 @@ body{
      letter-spacing: 1px;
 }
 
+.experience {
+     font-family: 'Roboto', sans-serif;
+     font-size: 14px;
+     font-weight: 300;
+     letter-spacing: 1px;
+}
+
+.experience thead th {
+     font-size: 14px;
+     font-weight: 500;
+     vertical-align: middle;
+}
+
+.position {
+     text-align: center;
+}
+
+.activity {
+     font-style: italic;
+     text-align: justify;
+}
+
+
 /* profile education END */
