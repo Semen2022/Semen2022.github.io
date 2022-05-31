@@ -243,11 +243,6 @@ body{
      height: 143px;
      margin-left: -20px;
      margin-top: -30px;
-     line-height: 15px;
-     display: flex;
-     flex-direction: column;
-     justify-content: flex-start;
-     flex-wrap: nowrap;
 }
  
 .icon_phone,
@@ -285,7 +280,7 @@ body{
 
 .foto {
      max-width: 90%;
-     max-height: 80%;
+     max-height: 84%;
 }
 
 .foto_author {
@@ -426,6 +421,7 @@ footer .bgyellow {
 
 /* ADAPTIVE START */
 
+
 /* @media screen and 
      (min-width: 768px) and
      (max-width: 991px) {
@@ -435,11 +431,53 @@ footer .bgyellow {
 */
 
 
-
 @media screen and 
-     (min-width: 576px) and
+     (min-width: 576px) and 
      (max-width: 767px) {
 
+.container {
+     margin-left: 0px;
+}
+
+.mark{
+     width: 45px;
+     height: 48px;
+}
+
+.wrap_header {
+     height: 220px;
+}
+
+.name {
+     font-size: 42px;
+     margin-top: 2px;
+}
+
+.specialization {
+     font-size: 18px;
+}
+
+.contacts {
+     font-size: 16px;
+     line-height: 28px;
+     margin: 0px 0 0 20px;
+}
+
+.contacts_icons {
+     width: 45px;
+     height: 100%;
+     margin-top: 0px;
+}
+
+.icon_phone {
+     margin-top: 6px;
+}
+
+.icon_phone,
+.icon_mail,
+.icon_home {
+     padding: 8px;
+}
 
 .main {
      margin-top: 27px;
@@ -447,7 +485,7 @@ footer .bgyellow {
 
 .wrap_left {
      padding-right: 10px;
-     max-width: 300px;
+     max-width: 410px;
 }
 
 .block_column_left {
@@ -455,7 +493,8 @@ footer .bgyellow {
 }
 
 .block_column_left h2{
-     font-size: 22px;
+     /*font-size: 22px;*/
+     font-size: calc(20px + ((27 - 20) * ((100vw - 576px) / (768 - 576))));
 }
 
 .text_column_left {
@@ -466,18 +505,21 @@ footer .bgyellow {
 .text_column_left {
      margin-top: 2px;
      font-size: 18px;
+     font-weight: 500;
      letter-spacing: normal;
 }
 
 .experience {
      font-size: 15px;
-     font-weight: 300;
+     font-weight: 500;
      letter-spacing: normal;
 }
 
-
-
-
+.experience thead th {
+     font-size: 14px;
+     font-weight: 600;
+     padding-bottom: 0px;
+}
 
 .wrap_right {
      padding-left: 15px;
@@ -488,7 +530,8 @@ footer .bgyellow {
 }
 
 .block_column_right h2 {
-     font-size: 22px;
+/*   font-size: 22px; */
+     font-size: calc(20px + ((27 - 20) * ((100vw - 576px) / (768 - 576))));
      padding-bottom: 8px;
 }
 
@@ -520,8 +563,43 @@ footer .bgyellow {
 
 
 
+
 @media screen and (max-width: 575px) {
 
+.container {
+     margin-left: 0px;
+}
+     
+.mark{
+     display: none;
+}
+
+.wrap_header {
+     height: unset;
+}
+.header {
+     display: flex;
+     flex-direction: column-reverse;
+     align-items: center;
+     justify-content: flex-end;
+}
+
+.header .column_left {
+    justify-content: initial;
+    align-items: initial;
+ }
+
+ .column_left {
+      flex-basis: initial;
+ }
+
+.specialization {
+     font-size: 18px;
+}
+
+.main {
+     display: none;
+}
      
 }
 
