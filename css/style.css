@@ -561,6 +561,8 @@ footer .bgyellow {
 
 .language_list {
      padding-left: 15px;
+     margin-top: 0px;
+     line-height: 1.5em;
 }
 
 .language_list li span {
@@ -569,8 +571,20 @@ footer .bgyellow {
 
  .block_column_right .level {
       font-size: 10px;
+      margin-bottom: 16px;
 }
 
+.block_column_right {
+     margin-bottom: 15px;
+}
+
+.reference {
+     margin-top: 6px;
+ }
+
+.period {
+     margin-top: 10px;
+ }
 
 }
 
@@ -589,6 +603,7 @@ footer .bgyellow {
 .wrap_header {
      height: unset;
 }
+
 .header {
      display: flex;
      flex-direction: column-reverse;
@@ -601,7 +616,11 @@ footer .bgyellow {
     align-items: initial;
  }
 
- .column_left {
+.name {
+     font-size: 42px;
+}
+
+.column_left {
       flex-basis: initial;
  }
 
@@ -617,9 +636,20 @@ footer .bgyellow {
      border-left: none;
 }
 
-.temp_disp_none {
-     display: block;
+.block_column_right {
+     margin-bottom: 37px;
 }
+
+.block_column_right .level {
+     margin-bottom: 23px;
+ }
+.wrap_right {
+     padding-left: 0px;
+ }
+
+ .language_list {
+     margin-top: 9px;
+ }
 
 
 }
