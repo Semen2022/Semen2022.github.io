@@ -413,6 +413,8 @@ body{
 /* footer START*/
 
 footer .bgyellow {
+     max-width: 954px;
+     margin: 0 auto;
      line-height: 2em;
      text-align: center;
 }
