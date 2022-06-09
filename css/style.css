@@ -610,7 +610,7 @@ footer .bgyellow {
 }
 
 .main {
-     flex-direction: column-reverse;
+     flex-direction: column;
 }
 
 .main .column_right {
@@ -618,7 +618,7 @@ footer .bgyellow {
 }
 
 .temp_disp_none {
-     display: none;
+     display: block;
 }
 
 
