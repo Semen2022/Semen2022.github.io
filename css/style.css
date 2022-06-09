@@ -18,7 +18,7 @@ body{
      line-height: 1.2; /* задается высота строк*/
      font-weight: normal; /* вес (жирность шрифта - устанавливаем обычную 300)*/
      color: #000;
-     background-color: rgba(157 216 251 / 55%);
+     /*background-color: rgba(157 216 251 / 55%);  */
      min-width: 320px;
 }
 
@@ -222,7 +222,7 @@ body{
 }
 
 .specialization {
-     font-size: 22px;
+     font-size: 28px;
      font-weight: 400;
 }
 
@@ -361,14 +361,14 @@ body{
 
 .block_column_right {
      font-family: 'Poppins', sans-serif;
-     padding-bottom: 12px;
+     margin-bottom: 65px;
 }
 
-.block_column_right h2 {
+
+.education, .lang_skills {
      font-size: 27px;
      font-weight: 600;
      text-transform: uppercase;
- /*    padding-bottom: 15px; */
 }
 
 .period {
@@ -376,14 +376,12 @@ body{
      font-size: 20px;
      font-weight: 300;
      letter-spacing: 1px;
-     margin-top: 32px;
-     padding-bottom: 2px;
+     margin-top: 30px;
 }
 
 .text_column_right {
      font-size: 22px;
      font-weight: 300;
-     padding-bottom: 2px;
 }
 
 .degree {
@@ -394,6 +392,7 @@ body{
      font-family: 'Roboto', sans-serif;
      font-weight: 500;
      padding-left: 25px;
+     margin-top: 30px;
 }
 
 .language_list li {
@@ -403,11 +402,13 @@ body{
  .language_list li span {
      color: #363636;
      font-size: 20px;
+     margin-left: 15px;
  }
 
  .block_column_right .level {
       text-transform: uppercase;
       font-size: 14px;
+      margin-bottom: 40px;
  }
 /* column right END*/
 
@@ -416,8 +417,6 @@ body{
 /* footer START*/
 
 footer .bgyellow {
-     max-width: 954px;
-     margin: 0 auto;
      line-height: 2em;
      text-align: center;
 }
