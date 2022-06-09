@@ -208,7 +208,7 @@ body{
 
 .name {
      /*font-size: calc(22px + ((62 - 22) * ((100vw - 320px) / (958 - 320))));*/
-     font-size: 45px;
+     font-size: 62px;
      font-weight: 500;
      margin-top: 37px;
      text-transform: uppercase;
@@ -308,7 +308,7 @@ body{
 }
 
 .block_column_left {
-     margin: 0 0 35px 0;
+     margin: 0 0 52px 0;
 }
 
 .block_column_left h2{
@@ -319,36 +319,32 @@ body{
 }
 
 .text_column_left {
-     margin-top: 9px;
      font-family: 'Roboto', sans-serif;
      font-size: 20px;
-     font-weight: 300;
-     letter-spacing: 1px;
+     font-weight: 400;
 }
 
-.experience {
-     font-family: 'Roboto', sans-serif;
-     font-size: 18px;
-     font-weight: 300;
-     letter-spacing: 1px;
+.profile, .position {
+     margin-top: 23px;
 }
 
-.experience thead th {
-     font-size: 16px;
-     font-weight: 500;
-     vertical-align: middle;
-     padding-bottom: 7px;
-}
-
-.position {
-     text-align: center;
+.organization {
+     margin-top: 8px;
 }
 
 .activity {
-     font-style: italic;
-     text-align: justify;
+     font-weight: 300;
+     margin-top: 10px;
+     padding-bottom: 18px;
 }
 
+.examples {
+     margin-top: -12px;
+}
+
+.reference {
+     margin-top: 26px;
+}
 /* column left END */
 
 
@@ -372,7 +368,7 @@ body{
      font-size: 27px;
      font-weight: 600;
      text-transform: uppercase;
-     padding-bottom: 15px;
+ /*    padding-bottom: 15px; */
 }
 
 .period {
@@ -380,16 +376,23 @@ body{
      font-size: 20px;
      font-weight: 300;
      letter-spacing: 1px;
-     padding-bottom: 7px;
+     margin-top: 32px;
+     padding-bottom: 2px;
 }
 
 .text_column_right {
      font-size: 22px;
+     font-weight: 300;
+     padding-bottom: 2px;
+}
+
+.degree {
      font-weight: 400;
-     padding-bottom: 12px;
 }
 
 .language_list {
+     font-family: 'Roboto', sans-serif;
+     font-weight: 500;
      padding-left: 25px;
 }
 
@@ -399,7 +402,7 @@ body{
 }
  .language_list li span {
      color: #363636;
-     font-size: 22px;
+     font-size: 20px;
  }
 
  .block_column_right .level {
