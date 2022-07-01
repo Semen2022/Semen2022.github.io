@@ -275,19 +275,21 @@ body{
      display: flex;
      flex-direction: column;
      justify-content: center;  
-     align-items: flex-end;
+     align-items: center;
+     overflow: hidden;
 }
 
-.foto {
+/*.foto {
      max-width: 90%;
      max-height: 84%;
 }
+*/
 
 .foto_author {
      object-fit: cover;
      width: 100%;
      min-width: 100px;
-     overflow: hidden;
+     
 }
 
 /* Header END */
