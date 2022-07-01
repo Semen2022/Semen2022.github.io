@@ -208,7 +208,7 @@ body{
 
 .name {
      /*font-size: calc(22px + ((62 - 22) * ((100vw - 320px) / (958 - 320))));*/
-     font-size: 62px;
+     font-size: 45px;
      font-weight: 500;
      margin-top: 37px;
      text-transform: uppercase;
@@ -222,7 +222,7 @@ body{
 }
 
 .specialization {
-     font-size: 28px;
+     font-size: 24px;
      font-weight: 400;
 }
 
@@ -462,12 +462,12 @@ footer .bgyellow {
 }
 
 .name {
-     font-size: 42px;
+     font-size: 36px;
      margin-top: 2px;
 }
 
 .specialization {
-     font-size: 18px;
+     font-size: 14px;
 }
 
 .contacts {
@@ -599,7 +599,11 @@ footer .bgyellow {
 }
      
 .mark{
-     display: none;
+     width: 45px;
+     height: 42px;
+     margin-bottom: 8px;
+    /* display: none;*/
+
 }
 
 .wrap_header {
@@ -620,6 +624,7 @@ footer .bgyellow {
 
 .name {
      font-size: 42px;
+     text-align: center;
 }
 
 .column_left {
