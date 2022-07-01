@@ -625,6 +625,7 @@ footer .bgyellow {
 .name {
      font-size: 36px;
      text-align: center;
+     margin-top: 30px;
 }
 
 .column_left {
@@ -641,6 +642,7 @@ footer .bgyellow {
 
  .contacts {
      font-size: 16px;
+ }
 
 .main {
      flex-direction: column;
