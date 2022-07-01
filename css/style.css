@@ -623,7 +623,7 @@ footer .bgyellow {
  }
 
 .name {
-     font-size: 42px;
+     font-size: 36px;
      text-align: center;
 }
 
@@ -632,8 +632,15 @@ footer .bgyellow {
  }
 
 .specialization {
-     font-size: 18px;
+     font-size: 16px;
 }
+
+.contacts_icons {
+     width: 45px;
+ }
+
+ .contacts {
+     font-size: 16px;
 
 .main {
      flex-direction: column;
