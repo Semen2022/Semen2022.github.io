@@ -638,10 +638,16 @@ footer .bgyellow {
 
 .contacts_icons {
      width: 45px;
+     height: 130px;
+     margin-top: -15px;
  }
 
  .contacts {
      font-size: 16px;
+ }
+
+ .icon_phone {
+     margin-top: 22px;
  }
 
 .main {
