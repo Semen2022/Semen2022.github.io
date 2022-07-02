@@ -442,6 +442,9 @@ body{
 
 .ltem_list_container {
      margin-top: 24px;
+     font-size: 20px;
+     color: #282828;
+     font-weight: 500;
 }
 
 .mark_item {
@@ -466,17 +469,41 @@ body{
 }
 
 .progress-bar {
-     margin-left: 12px;
+     margin-left: 5px;
+     margin-top: 5px;
 }
 
 .progress-block {
-     width: 5px;
-     height: 1em;
+     width: 4px;
      margin: 2px 1px;
      background-color: #555;
 }
 .progress-block.active {
      background-color: #f1cb59;
+}
+.progress-block.first {
+     height: 3px;
+     margin-top: 12px;
+}
+
+.progress-block.second {
+     height: 6px;
+     margin-top: 9px;
+}
+
+.progress-block.third {
+     height: 9px;
+     margin-top: 6px;
+}
+
+.progress-block.fourth {
+     height: 12px;
+     margin-top: 3px;
+}
+
+.progress-block.fifth {
+     height: 15px;
+     margin-top: 0px;
 }
 
  
@@ -648,6 +675,10 @@ footer .bgyellow {
 .period {
      margin-top: 10px;
  }
+
+ .skills_list {
+     margin-left: 0px;
+}
 
 }
 
