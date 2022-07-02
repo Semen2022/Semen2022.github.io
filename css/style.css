@@ -412,13 +412,18 @@ body{
      font-weight: 400;
 }
 
-.language_list {
+.language_list,
+.skills_list {
      font-family: 'Roboto', sans-serif;
      font-weight: 500;
+     margin-top: 20px;   
+}
+
+.language_list {
      padding-left: 32px;
-     margin-top: 20px;
      line-height: 2.7em;
 }
+
 
 .language_list li {
      list-style-type: square;
@@ -428,13 +433,53 @@ body{
      color: #282828;
      font-size: 20px;
      margin-left: 15px;
- }
+}
 
- .block_column_right .level {
-      text-transform: uppercase;
-      font-size: 14px;
-      margin-bottom: 40px;
- }
+.skills_list {
+     margin-left: 16px;
+     margin-top: 48px;
+}
+
+.ltem_list_container {
+     margin-top: 24px;
+}
+
+.mark_item {
+     margin-top: 0.4em;
+     width: 5px;
+     height: 5px;
+     background: #f1cb59;
+}
+.mark_item,
+.item_list,
+.progress-bar,
+.progress-block {
+     float: left;     
+}
+
+.clearfix {
+     clear: left;
+}
+
+.item_list {
+     margin-left: 26px;
+}
+
+.progress-bar {
+     margin-left: 12px;
+}
+
+.progress-block {
+     width: 5px;
+     height: 1em;
+     margin: 2px 1px;
+     background-color: #555;
+}
+.progress-block.active {
+     background-color: #f1cb59;
+}
+
+ 
 /* column right END*/
 
 /*  main END */
